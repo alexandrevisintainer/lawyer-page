@@ -1,0 +1,71 @@
+.container {
+    height: 100%;
+    min-height: 8vh;
+    width: 100%;
+    background-color: #616161;
+    color: #fff;
+}
+.center {
+    width: 90%;
+    max-width: 1024px;
+    text-align: center;
+    padding-top: 2vh;
+    margin: auto;
+}
+.center p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+.center h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.8; 
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.phone {
+    margin-right: 50px;
+}
+.phone div{
+    display: flex;
+}
+.phone p {
+    margin-left: 8px;
+}
+.location {
+    text-align: left;
+}
+.social a {
+    margin: 16px 8px 0 8px;
+}
+.image {
+    height: 25px;
+    width: 25px;
+}
+.bottom {
+    background-color: #212121;
+    padding: 8px;
+    text-align: center;
+    margin-top: 16px;
+}
+.bottom h3 {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+}
+@media screen and (max-width: 650px) {
+    .top {
+        flex-direction: column;
+    }
+    .phone {
+        margin: 0;
+        text-align:left;
+        margin-top: 8px;
+    }
+    .social {
+        text-align: left;
+        margin-top: 8px;
+    }
+}

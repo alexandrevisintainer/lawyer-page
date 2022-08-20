@@ -1,0 +1,88 @@
+.container {
+    height: 100%;
+    min-height: 50vh;
+    width: 100%;
+    background-color: #e0e0e0; 
+}
+.center {
+    width: 90%;
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    margin: 0 auto;
+}
+ 
+.image {
+    position: relative; 
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 32px;
+} 
+.aside {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+.center h2 {
+    font-size: 4.2rem;
+    padding-left: 16px; 
+    font-weight: 700;
+    font-family: 'Gentium Basic', serif;
+}
+.aside p {
+    font-size: 1.6rem;
+    padding: 16px;
+}
+.aside button {
+    font-size: 2.2rem;
+    padding: 8px 32px 8px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #ba181b;
+    color: white;
+    margin: 16px;
+}
+.aside button:hover {
+    background-color: #d32f2f;
+}
+.aside h4 {
+    font-size: 1.8rem;
+    padding-left: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+@media screen and (max-width: 950px) {
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .image {
+        position: relative; 
+        width: 350px;
+        height: 225px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .center h2 {
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 360px) { 
+    .image {
+        position: relative; 
+        width: 280px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    
+}

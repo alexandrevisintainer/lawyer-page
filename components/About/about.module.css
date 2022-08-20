@@ -1,0 +1,80 @@
+.container {
+    height: 100%;
+    min-height: 55vh;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.center {
+    width: 90%;
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5vh;
+    margin: 0 auto;
+}
+.image {
+    position: relative; 
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 32px;
+} 
+.aside {
+    max-width: 500px;
+    margin: auto;
+}
+.center h2 {
+    font-size: 4.2rem;
+    padding-left: 16px; 
+    font-weight: 700;
+    font-family: 'Gentium Basic', serif; 
+}
+.aside p {
+    font-size: 1.6rem;
+    padding: 16px;
+}
+.aside button {
+    font-size: 2.2rem;
+    padding: 8px 32px 8px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #ba181b;
+    color: white;
+    margin: 16px;
+}
+.aside button:hover {
+    background-color: #d32f2f;
+}
+@media screen and (max-width: 990px) {
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        margin-bottom: 64px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .image {
+        position: relative; 
+        width: 400px;
+        height: 250px;
+    } 
+}
+@media screen and (max-width: 435px) {
+    .image {
+        position: relative; 
+        width: 320px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .image {
+        position: relative; 
+        width: 280px;
+        height: 200px;
+    } 
+}

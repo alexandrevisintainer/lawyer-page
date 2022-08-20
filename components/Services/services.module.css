@@ -1,0 +1,86 @@
+.container {
+    height: 100%;
+    min-height: 70vh;
+    width: 100%;
+    background-color: #eeeeee ; 
+}
+.center {
+    height: 100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5vh;
+}
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #b71c1c ;
+    align-items: center;
+    padding: 20px 15px 0 15px;
+    margin: auto; 
+}
+.center h2 {
+    margin: 64px;
+    font-size: 4.2rem;
+    font-weight: 700;
+    font-family: 'Gentium Basic', serif;
+}
+.cards h3 {
+    font-size: 3.2rem;
+    margin: 16px;
+    font-weight: 600;
+}
+.cards p {
+    max-width: 300px;
+    margin: auto;
+    font-size: 1.6rem;
+}
+.cards {
+    width: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card1 {
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+}
+.card2 {
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+}
+.card3 {
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+}
+.card4 {
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+    margin-top: 22px;
+}
+.card4 h3 {
+    font-size: 3rem;
+}
